@@ -1,0 +1,21 @@
+var retroData = [
+                    {"label":"EXPERIEMCE",  "value":1,  "question":"What do you think helped you from team's past experience?"},
+                    {"label":"PROBLEMS",  "value":1,  "question":"What problems you had last print, How can they be avoided?"},
+                    {"label":"SPEED",  "value":1,  "question":"What do you think would have helped you in speeding up your User Story?"},
+                    {"label":"TIME",  "value":1,  "question":"In your perspective of last sprint, what consumed team's most time?"},
+				            {"label":"PROCESS",  "value":1,  "question":"How can we change our process, or definition of done to address a User Story??"},
+                    {"label":"PERSONAL",  "value":1,  "question":"How did you personally do last sprint, share your experience what you feel about it?"},
+                    {"label":"POINT FINGER",  "value":1,  "question":"Whom would you like to pair with for your next User Story and Why?"},
+                    {"label":"CELEBRATE",  "value":1,  "question":"How should we celebrate if we achieve 100% or more in next sprint"},
+                    {"label":"PASS",  "value":1,  "question":"You just got LUCKY!!!, try for a lottery today"},
+                    {"label":"AGREE",  "value":1,  "question":"Do you agree with the previous team member, add in your thoughts as well?"},
+                    {"label":"PAIRING",  "value":1,  "question":"Did you pair last sprint, why / why not?"},
+                    {"label":"DEFINE",  "value":1,  "question":"What are the two words that best describes last sprint? "},
+                    {"label":"TEAM SUCCESS",  "value":1,  "question":"What helps you to be successful as a team, You can share even a small instance?"},
+                    {"label":"UNUSUAL",  "value":1,  "question":"In last sprint, was there anything unusual or different happened then past?"},
+                    {"label":"INFLUENCE",  "value":1,  "question":"In your opinion, Did last retro meeting had an influence on last sprint? Explain"},
+                    {"label":"HOMEWORK",  "value":1,  "question":"Did you get the time to see the user stories befor the Grooming? Be honest, Did/would it help"},
+                    {"label":"HOMEWORK",  "value":1,  "question":"Did you get the time to see the user stories befor the Grooming? Did/would it help"},
+                    {"label":"RANK SPRINT",  "value":1,  "question":"What would you rank last sprint (order of 4) in this PSI ? Explain"},
+                    {"label":"GROOMING",  "value":1,  "question":"Rate from 5 and explain, grooming session and story estimation last sprint."}
+];
