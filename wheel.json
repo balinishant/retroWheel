@@ -3,7 +3,7 @@ var retroData = [
                     {"label":"PROBLEMS",  "value":1,  "question":"What problems you had last print, How can they be avoided?"},
                     {"label":"SPEED",  "value":1,  "question":"What do you think would have helped you in speeding up your User Story?"},
                     {"label":"TIME",  "value":1,  "question":"In your perspective of last sprint, what consumed team's most time?"},
-				            {"label":"PROCESS",  "value":1,  "question":"How can we change our process, or definition of done to address a User Story??"},
+		    {"label":"PROCESS",  "value":1,  "question":"How can we change our process, or definition of done to address a User Story??"},
                     {"label":"PERSONAL",  "value":1,  "question":"How did you personally do last sprint, share your experience what you feel about it?"},
                     {"label":"POINT FINGER",  "value":1,  "question":"Whom would you like to pair with for your next User Story and Why?"},
                     {"label":"CELEBRATE",  "value":1,  "question":"How should we celebrate if we achieve 100% or more in next sprint"},
