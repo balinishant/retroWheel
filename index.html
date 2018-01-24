@@ -32,13 +32,13 @@
         position: absolute;
         padding: 0;
         margin: 0;
-        top:50%;
+        top:50%;		
         left:50px;
         -webkit-transform:translate(0,-50%);
                 transform:translate(0,-50%);
     }
     </style>
-    
+    <script type="text/javascript" src="wheel.json"></script>
 </head>
 <body>
     <div id="chart"></div>
@@ -58,31 +58,9 @@
             //randomNumbers = getRandomNumbers();
 
         //http://osric.com/bingo-card-generator/?title=HTML+and+CSS+BINGO!&words=padding%2Cfont-family%2Ccolor%2Cfont-weight%2Cfont-size%2Cbackground-color%2Cnesting%2Cbottom%2Csans-serif%2Cperiod%2Cpound+sign%2C%EF%B9%A4body%EF%B9%A5%2C%EF%B9%A4ul%EF%B9%A5%2C%EF%B9%A4h1%EF%B9%A5%2Cmargin%2C%3C++%3E%2C{+}%2C%EF%B9%A4p%EF%B9%A5%2C%EF%B9%A4!DOCTYPE+html%EF%B9%A5%2C%EF%B9%A4head%EF%B9%A5%2Ccolon%2C%EF%B9%A4style%EF%B9%A5%2C.html%2CHTML%2CCSS%2CJavaScript%2Cborder&freespace=true&freespaceValue=Web+Design+Master&freespaceRandom=false&width=5&height=5&number=35#results
-
-        var data = [
-                    {"label":"EXPERIEMCE",  "value":1,  "question":"What do you think helped you from team's past experience?"},
-                    {"label":"PROBLEMS",  "value":1,  "question":"What problems you had last print, How can they be avoided?"},
-                    {"label":"SPEED",  "value":1,  "question":"What do you think would have helped you in speeding up your User Story?"},
-                    {"label":"TIME",  "value":1,  "question":"In your perspective of last sprint, what consumed team's most time?"},
-		    {"label":"PROCESS",  "value":1,  "question":"How can we change our process, or definition of done to address a User Story??"},
-                    {"label":"PERSONAL",  "value":1,  "question":"How did you personally do last sprint, share your experience what you feel about it?"},
-                    {"label":"POINT FINGER",  "value":1,  "question":"Whom would you like to pair with for your next User Story and Why?"},
-                    {"label":"CELEBRATE",  "value":1,  "question":"How should we celebrate if we achieve 100% or more in next sprint"},
-                    {"label":"PASS",  "value":1,  "question":"You just got LUCKY!!!, try for a lottery today"},
-                    {"label":"AGREE",  "value":1,  "question":"Do you agree with the previous team member, add in your thoughts as well?"},
-                    {"label":"PAIRING",  "value":1,  "question":"Did you pair last sprint, why / why not?"},
-                    {"label":"DEFINE",  "value":1,  "question":"What are the two words that best describes last sprint? "},
-                    {"label":"TEAM SUCCESS",  "value":1,  "question":"What helps you to be successful as a team, You can share even a small instance?"},
-                    {"label":"UNUSUAL",  "value":1,  "question":"In last sprint, was there anything unusual or different happened then past?"},
-                    {"label":"INFLUENCE",  "value":1,  "question":"In your opinion, Did last retro meeting had an influence on last sprint? Explain"},
-                    {"label":"HOMEWORK",  "value":1,  "question":"Did you get the time to see the user stories befor the Grooming? Be honest, Did/would it help"},
-                    {"label":"HOMEWORK",  "value":1,  "question":"Did you get the time to see the user stories befor the Grooming? Did/would it help"},
-                    {"label":"RANK SPRINT",  "value":1,  "question":"What would you rank last sprint (order of 4) in this PSI ? Explain"},
-                    {"label":"GROOMING",  "value":1,  "question":"Rate from 5 and explain, grooming session and story estimation last sprint."}
-];
-
-
-        var svg = d3.select('#chart')
+       	
+	   var data = retroData;
+	   var svg = d3.select('#chart')
             .append("svg")
             .data([data])
             .attr("width",  w + padding.left + padding.right)
