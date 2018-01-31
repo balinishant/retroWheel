@@ -1,5 +1,5 @@
 var retroData = [
-                    {"label":"EXPERIEMCE",  "value":1,  "question":"What do you think helped you from team's past experience?"},
+                    {"label":"EXPERIENCE",  "value":1,  "question":"What do you think helped you from team's past experience?"},
                     {"label":"PROBLEMS",  "value":1,  "question":"What problems you had last print, How can they be avoided?"},
                     {"label":"SPEED",  "value":1,  "question":"What do you think would have helped you in speeding up your User Story?"},
                     {"label":"TIME",  "value":1,  "question":"In your perspective of last sprint, what consumed team's most time?"},
